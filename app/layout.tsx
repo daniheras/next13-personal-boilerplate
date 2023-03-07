@@ -1,4 +1,10 @@
 import './globals.css'
+import { Inter } from 'next/font/google';
+
+const inter = Inter({
+  variable: '--inter-font',
+  subsets: ['latin']
+})
 
 export const metadata = {
   title: 'Create Next App',
